@@ -1,0 +1,34 @@
+{
+    "name": "player action",
+    "maps": [
+        {
+            "name": "player",
+            "id": "f143dd4f-1c2c-47ed-b204-1a40462b230d",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Button",
+                    "id": "d1d819a9-cc74-4671-9667-914b30f0c14b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "295dd0c4-736d-474a-8468-772f6bdf9ab7",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
